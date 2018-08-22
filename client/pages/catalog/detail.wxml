@@ -1,0 +1,7 @@
+<!--pages/catalog/detail.wxml-->
+<view class="container">
+
+  <view class='content'>
+    {{content}}
+  </view>
+</view>
