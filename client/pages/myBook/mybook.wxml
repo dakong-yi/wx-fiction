@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="name_list" wx:if="{{bookData}}"> 
+        <navigator>
+            <view class="inner-item">
+              <image src="../image/img5.jpg"></image>
+              <text>飞剑问道</text>
+            </view>
+        </navigator>
+        <navigator>
+            <view class="inner-item">
+              <image src="../image/img6.jpg"></image>
+              <text>一号红人</text>
+            </view>
+        </navigator>
+        <navigator>
+            <view class="inner-item">
+              <image src="../image/img7.jpg"></image>
+              <text>绝世战魂</text>
+            </view>
+        </navigator>
+        <navigator>
+            <view class="inner-item">
+              <image src="../image/img8.jpg"></image>
+              <text>敛财人生.</text>
+            </view>
+        </navigator>
+        <navigator>
+            <view class="inner-item">
+              <image src="../image/img9.jpg"></image>
+              <text>敛财人生</text>
+            </view>
+        </navigator>
+        <navigator url="../index/index" class="add-book">
+            <view class="inner-item">
+              <text>+</text>
+            </view>
+        </navigator>
+    </view>
+    <view class="no-book" wx:else>
+        <text>重拾阅读习惯，让生活更加优雅</text>
+        <navigator url="../index/index">去找书</navigator> 
+    </view>
+</view>

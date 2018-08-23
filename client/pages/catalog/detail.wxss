@@ -1,1 +1,14 @@
 /* pages/catalog/detail.wxss */
+.container {
+	padding:15px;
+	font-size:14px;	
+}
+.title {
+	color:#111;
+	font-weight:bold;
+	margin-bottom:9px;
+}
+.content {
+	line-height:24px;
+	text-indent:2em;
+}

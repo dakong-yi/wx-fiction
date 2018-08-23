@@ -36,9 +36,27 @@
             <text>快速增加 CGI11</text>
         </navigator>
     </view> -->
-    <view>
+    <view class="item-wrapper">
         <navigator wx:for="{{array}}" wx:key="{{item}}" url="../catalog/detail?article_id={{item.article_id}}" open-type="navigate" class="uploader-text">
-            <text>第{{item.chapter}}章</text>
+            <view class="item-inner">
+                <text>第{{item.chapter}}章 我是你爸爸</text>
+            </view>
+        </navigator>
+        <navigator wx:for="{{array}}" wx:key="{{item}}" url="../catalog/detail?article_id={{item.article_id}}" open-type="navigate" class="uploader-text">
+            <view class="item-inner">
+                <text>第{{item.chapter}}章 我是你爸爸</text>
+            </view>
+        </navigator>
+        <navigator wx:for="{{array}}" wx:key="{{item}}" url="../catalog/detail?article_id={{item.article_id}}" open-type="navigate" class="uploader-text">
+            <view class="item-inner">
+                <text>第{{item.chapter}}章 我是你爸爸</text>
+            </view>
+        </navigator>
+        <navigator wx:for="{{array}}" wx:key="{{item}}" url="../catalog/detail?article_id={{item.article_id}}" open-type="navigate" class="uploader-text">
+            <view class="item-inner">
+                <text>第{{item.chapter}}章 我是你爸爸</text>
+            </view>
         </navigator>
     </view>
+    <view class="add-book">加入书架</view>
 </view>
